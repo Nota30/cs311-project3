@@ -16,11 +16,11 @@ const Words = () => {
   const [message, setMessage] = useState('nothing here yet....');
   const [isError, setIsError] = useState(false);
 
-  const aboutRef = useRef(null);
+  const buttonRef = useRef(null);
   const messageRef = useRef(null);
 
   useEffect(() => {
-    const brackets = annotate(aboutRef.current, {
+    const brackets = annotate(buttonRef.current, {
       type: 'bracket',
       brackets: ['left', 'right'],
       color: '#34d399',
@@ -113,7 +113,7 @@ const Words = () => {
     <main>
       <section className="mb-13.75">
         <h2 className="mt-[0.83em] mb-3.75 text-[14px] font-medium text-white">
-          <span ref={aboutRef}>About</span>
+          <span>About</span>
         </h2>
         <p className="my-3.75">
           Click the button below to generate 20 random words and their
@@ -121,10 +121,11 @@ const Words = () => {
           Or use the search field to find a definition.
         </p>
 
-        <div className="flex flex-wrap gap-1">
+        <div className="flex flex-wrap gap-5">
           <button
             className="btn btn-sm btn-outline border-base-300 text-[15px] font-normal text-white hover:border-white hover:bg-transparent"
             onClick={fetchWords}
+            ref={buttonRef}
           >
             Generate words
           </button>
