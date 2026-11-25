@@ -17,6 +17,14 @@ const App = () => {
             randomlexicon.com
           </a>
         </p>
+        <p className="my-3.75">
+          <a
+            className="link link-primary"
+            href="https://www.flaticon.com/free-icons/words"
+          >
+            Words icons created by Magnific - Flaticon
+          </a>
+        </p>
       </footer>
     </div>
   );
