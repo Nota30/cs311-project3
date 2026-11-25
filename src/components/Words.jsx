@@ -188,7 +188,7 @@ const Words = () => {
             ))}
 
         {!showing && words.length > 0 && filteredWords.length === 0 && (
-          <p className="my-3.75">no {filter} words in this list...</p>
+          <p className="my-3.75">no {filter} in this list...</p>
         )}
       </section>
     </main>
