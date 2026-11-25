@@ -3,8 +3,23 @@
 A simple website that fetches data from [randomlexicon.com](https://randomlexicon.com/api-reference) and displays it. It fetches 20 words in a for loop and has a filtering system to filter between nouns, verbs, adjectives, and adverbs.
 It also includes a search function to get word definitions.
 
+## Installation & Usage
+
+Installing Node.js
+- Take a look at [nvm](https://github.com/nvm-sh/nvm) (Node Version Manager) to install Node.js.
+
+Install the packages
+```bash
+npm i
+```
+Run the app
+```bash
+npm run dev
+```
+
 
 ## Libraries used in this project
+
 - [Vite](https://vite.dev/)
 - [React](https://react.dev/)
 - [daisyUI](https://daisyui.com/)
