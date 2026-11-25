@@ -1,0 +1,30 @@
+@import 'tailwindcss';
+
+html {
+  scrollbar-gutter: stable;
+}
+
+@plugin 'daisyui' {
+  themes: false;
+}
+
+@plugin 'daisyui/theme' {
+  name: 'custom-theme';
+  default: true;
+  color-scheme: dark;
+
+  --color-base-100: Canvas;
+  --color-base-300: #3d3d3d;
+  --color-base-content: #c9c9c9;
+  --color-primary: #34d399;
+  --color-primary-content: #121212;
+  --color-error: #ff0000;
+
+  --radius-field: 6px;
+  --border: 1px;
+  --depth: 0;
+}
+
+@theme {
+  --font-sans: 'Inter', sans-serif;
+}
