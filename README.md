@@ -1,16 +1,14 @@
-# React + Vite
+# CS 311 Project 3
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A simple website that fetches data from [randomlexicon.com](https://randomlexicon.com/api-reference) and displays it. It fetches 20 words in a for loop and has a filtering system to filter between nouns, verbs, adjectives, and adverbs.
+It also includes a search function to get word definitions.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Libraries used in this project
+- [Vite](https://vite.dev/)
+- [React](https://react.dev/)
+- [daisyUI](https://daisyui.com/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [rough-notation](https://roughnotation.com/)
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+In case the link in the description doesn't work: https://cs311-project3.pages.dev (hosted on Cloudflare Pages)
